@@ -157,9 +157,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BusinessLogicLayer\KhachHangBLL.cs" />
-    <Compile Include="BusinessLogicLayer\TaiKhoanBLL.cs" />
     <Compile Include="DataAccessLayer\KhachHangDAL.cs" />
-    <Compile Include="DataAccessLayer\TaiKhoanDAL.cs" />
     <Compile Include="PresentationLayer\Custom\VBButton.cs">
       <SubType>Component</SubType>
     </Compile>

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using SA_G09.DataAccessLayer;
+using System;
 using System.Collections.Generic;
 using System.Data;
 using System.Linq;
@@ -10,9 +11,9 @@ namespace SA_G09.BusinessLogicLayer
 {
     internal class TaiKhoanBLL
     {
-        TaiKhoanBLL taiKhoanBLL = new TaiKhoanBLL();
+        TaiKhoanDAL taiKhoanDAL = new TaiKhoanDAL();
 
-        public int Login(string tenTK, string matkhau)
+       /* public int Login(string tenTK, string matkhau)
         {
             DataTable dt = taiKhoanDAL.findByUsername(tenTK);
             if (dt.Rows.Count == 0)
@@ -27,7 +28,7 @@ namespace SA_G09.BusinessLogicLayer
                 }
                 return 2; //Đúng tên dăng nhập nhưng Sai mật khẩu
             }
-        }
+        }*/
 
         public bool checkPassword(string tenTK, string matKhau)
         {

@@ -9,7 +9,7 @@ namespace SA_G09
 {
     internal static class Program
     {
-        public static string constr = "Data Source=LETRONGTHANG;Initial Catalog=db_se05;Integrated Security=True";
+        public static string constr = "Data Source=LAPTOP-9BKQGS37\\SQLEXPRESS;Initial Catalog=db_se05;Integrated Security=True";
 
         public static string maQuyenQuanLy = "Q01";
         public static string maQuyenBanHang = "Q02";
@@ -32,7 +32,7 @@ namespace SA_G09
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new DangNhapGUI());
+            Application.Run(new QuanLyBanHangGUI());
         }
     }
 }
